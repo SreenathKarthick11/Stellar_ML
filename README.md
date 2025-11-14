@@ -1,12 +1,12 @@
 # Stellar_ML: Machine Learning for Celestial Object Classification
 
-![SDSS](https://www.sdss.org/wp-content/uploads/2019/12/cartoon_expanded-1024x576.jpg)
+![SDSS](https://www.sdss.org/)
 
-## 📋 Project Overview
+## Project Overview
 
 **Stellar_ML** is a comprehensive machine learning project that classifies celestial objects (Stars, Galaxies, and Quasars) from the Sloan Digital Sky Survey (SDSS) DR17 dataset. This project demonstrates the complete pipeline from data preprocessing to model interpretation, achieving **98% classification accuracy** with robust astrophysical validation.
 
-## 🎯 Objectives
+## Objectives
 
 - **Classify** celestial objects into three categories: Stars, Galaxies, and Quasars
 - **Compare** multiple machine learning algorithms for optimal performance
@@ -14,7 +14,7 @@
 - **Validate** that model predictions align with established astronomical principles
 - **Address** class imbalance and evaluate clustering feasibility
 
-## 📊 Dataset
+## Dataset
 
 **Source:** Sloan Digital Sky Survey (SDSS) DR17 - Final release of SDSS-IV phase  
 **Samples:** 100,000 spectroscopic observations  
@@ -27,7 +27,7 @@
 - **Positional**: `alpha` (RA), `delta` (Dec) coordinates
 - **Derived**: Color indices (`u_g`, `g_r`, `r_i`, `i_z`)
 
-## 🛠️ Methodology
+## Methodology
 
 ### Data Preprocessing
 - **Feature Engineering**: Created color indices from magnitude bands
@@ -37,18 +37,18 @@
 
 ### Model Development
 
-#### 🔹 Basic Models
+#### Basic Models
 1. **Gaussian Naive-Bayes** - Baseline probabilistic model
 2. **Multiclass Logistic Regression** - Linear classification
 3. **Scaled Multiclass Logistic Regression** - With feature standardization
 4. **K-NN Classifier** - Instance-based learning
 
-#### 🔹 Advanced Models
+#### Advanced Models
 1. **Multiclass SVM** - With hyperparameter tuning
 2. **Decision Tree** - Interpretable tree-based model
 3. **Random Forest** - Ensemble of decision trees with optimal parameters
 
-#### 🔹 Boosting Algorithms
+#### Boosting Algorithms
 1. **AdaBoost** - Sequential learning with decision stumps
    - Accuracy: 88.79%
 2. **XGBoost** - Optimized gradient boosting
@@ -96,7 +96,7 @@ For each model, we performed:
 - plotly (for 3D visualizations)
 
 
-## 🔬 Scientific Validation
+## Scientific Validation
 
 This project goes beyond typical ML applications by:
 1. **Astrophysical Consistency**: Model decisions align with known celestial object properties
@@ -104,7 +104,7 @@ This project goes beyond typical ML applications by:
 3. **Feature Importance**: SHAP analysis confirms physically meaningful feature rankings
 4. **Bias Analysis**: Demonstrated minimal systematic errors in predictions
 
-## 📚 References
+## References
 
 1. [SDSS DR17 Official Website](https://www.sdss.org/dr17/)
 2. [The Seventeenth Data Release of SDSS](https://arxiv.org/abs/2112.02026)
