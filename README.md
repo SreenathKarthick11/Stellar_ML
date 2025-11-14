@@ -1,6 +1,5 @@
 # Stellar_ML: Machine Learning for Celestial Object Classification
 
-![SDSS](https://www.sdss.org/)
 
 ## Project Overview
 
